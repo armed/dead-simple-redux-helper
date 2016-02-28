@@ -1,0 +1,19 @@
+{
+  "name": "dead-simple-redux-helper",
+  "version": "0.0.1",
+  "description": "Dead simple redux helper (actions and reducers only)",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --no-babelrc --presets=es2015 -d dist"
+  },
+  "author": "Artem Medeusheyev <artem.medeusheyev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-preset-es2015": "^6.5.0",
+    "precommit-hook": "^3.0.0"
+  },
+  "pre-commit": [
+    "build"
+  ]
+}
