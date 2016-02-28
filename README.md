@@ -88,3 +88,7 @@ const myReducer = createReducer(initialState, {
   }
 })
 ```
+
+### License
+
+MIT
